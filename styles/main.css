@@ -58,7 +58,9 @@ img{
     font-size: 40px;
     color: #000000;
 }
-
+.single-item button{
+    display: none !important;
+}
 
 /* --------products--------------------------------------------------------------------------------------------------------- */
 .products{
