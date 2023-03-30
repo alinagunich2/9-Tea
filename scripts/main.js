@@ -12,7 +12,7 @@ $('.single-item').slick({
   fade: true,
   cssEase: 'linear',
   autoplay: true,
-  autoplaySpeed: 200,
+  autoplaySpeed: 1900,
 });
 $( "#accordion" ).accordion({
   heightStyle: "content"
@@ -31,12 +31,12 @@ input.eq(5).keyup(function () {
 form.submit(function(e){
   e.preventDefault()
   e.stopPropagation()
-// for(let i = 1; i<input.length; i++){
-// if(input.eq(i).val().length<1){
-//     alert('Заполните '+ input.eq(i).prev().text())
-//     return
-//   }
-// }
+for(let i = 1; i<input.length; i++){
+if(input.eq(i).val().length<1){
+    alert('Заполните '+ input.eq(i).prev().text())
+    return
+  }
+}
 if(input.eq(5).val().length !== 6){
   alert('Индекс должен содержать 6 цифр')
 }else{
