@@ -1,0 +1,154 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+header{
+    background-color: #F8F9FA;
+    padding: 12px 0;
+}
+
+.burger{
+   fill: gray;
+}
+
+.logo{
+    color: black;
+    font-size: 20px;
+}
+a.active{
+    color: #000000;
+}
+.nav-link{
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-and-search{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* --------main--------------------------------------------------------------------------------------------------------- */
+.main{
+    padding: 72px 0 36px 0;
+}
+
+ul.slick-dots{
+    display: none !important;
+}
+
+img{
+  width: 100%;
+  display: block;  
+}
+
+.slick-prev{
+    left: 41px;
+    z-index: 100;
+}
+.slick-next{
+    right: 64px;
+}
+.slick-prev:before, .slick-next:before{
+    font-size: 40px;
+    color: #000000;
+}
+
+
+/* --------products--------------------------------------------------------------------------------------------------------- */
+.products{
+padding: 36px 0;
+}
+
+.products h1{
+    margin-bottom: 51px;
+    font-weight: 700;
+font-size: 32px;
+}
+.card-body{
+    padding: 20px;
+}
+.card-title{
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.col button{
+    background-color: #076BFF;
+    padding: 0 42px;
+    width: 172px;
+}
+
+/* --------products--------------------------------------------------------------------------------------------------------- */
+.question{
+    padding: 36px 0 32px 0;  
+    position: relative;
+}
+.question .container{
+    max-width: 856px;
+}
+
+h2{
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+h3 > .ui-accordion-header-icon{
+    display: none;
+}
+.question h3{
+    background: linear-gradient(360deg, #076BFF 0%, #007BFF 100%);
+    border-radius: 10px;
+}
+h3::after{
+    content: url(../img/next\ 3\ \(2\).png);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+   right: 24px;
+   transition: all .5s ease;
+  }
+  h3.ui-state-active::after{
+    transform:rotate(180deg);
+  }
+
+/* --------order--------------------------------------------------------------------------------------------------------- */
+
+  .order{
+    padding: 24px 0 48px 0; 
+    max-width: 660px;
+  }
+label{
+color: #000000;
+}
+.form-label{
+    margin-bottom: 10px;
+}
+.order form button{
+    padding: 6px 37px;
+}
+
+/* --------footer--------------------------------------------------------------------------------------------------------- */
+
+footer{
+    background-color: #F8F9FA;
+    padding: 19px 0;
+}
+
+.order-open{
+    display: none;
+}
+.order-open p{
+    padding: 170px 0;
+    font-weight: 700;
+    font-size: 32px;
+    
+}
+
+
